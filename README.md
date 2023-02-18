@@ -1,5 +1,8 @@
 # Team training project: api_yamdb - service that collects user feedback on works of art.
 
+https://github.com/damarkevich/yamdb_final/actions/workflows/yamdb_workflow/badge.svg
+
+
 ## Technologies used:
 Python3, Django Framework, Django Rest Framework, MySQL, JWT, docker
 
