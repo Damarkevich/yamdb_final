@@ -41,6 +41,8 @@ jobs:
         with:
           push: true
           tags: damarkevich/yamdb_final:latest
+          script: |
+            cd api_yamdb
 
   deploy:
     runs-on: ubuntu-latest
