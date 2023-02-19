@@ -1,6 +1,6 @@
 # Team training project: api_yamdb - service that collects user feedback on works of art.
 
-## GITHub action status:
+## GitHub Action status:
 ![API_YAMDB workflow](https://github.com/damarkevich/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
 
 ## Technologies used:
@@ -23,7 +23,7 @@ The project is accessed via API.
 
 The project is pack into a docker container.
 
-When uploading to GitHub, GitHub actions starting: The project image is automatically collected and sent to the DockerHub. Next, this image is deploing and starting on the server. If these tasks are successfully completed, the telegram bot receives a message about the completion of the procedure. 
+When uploading to GitHub, GitHub Actions starting: The project image is automatically collected and sent to the DockerHub. Next, this image is deploing and starting on the server. If these tasks are successfully completed, the telegram bot receives a message about the completion of the procedure. 
 
 To use this feature you need to fill secrets section in GitHub actions: DB_ENGINE, DB_NAME, POSTGRES_USER, POSTGRES_PASSWORD, DB_HOST, DB_PORT, HOST, DOCKER_USERNAME, DOCKER_PASSWORD, USER, SSH_KEY, PASSPHRASE, TELEGRAM_TO, TELEGRAM_TOKEN 
 
