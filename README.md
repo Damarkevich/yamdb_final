@@ -1,5 +1,6 @@
 # Team training project: api_yamdb - service that collects user feedback on works of art.
 
+## GITHub action status:
 https://github.com/damarkevich/yamdb_final/actions/workflows/yamdb_workflow/badge.svg
 
 
@@ -21,18 +22,23 @@ Only authenticated users can add reviews, comments and rate.
 
 The project is accessed via API.
 
-The project ready to be pack into a docker container.
+The project is pack into a docker container.
+
+When uploading to GitHub, GitHub actions starting: The project image is automatically collected and sent to the DockerHub. Next, this image is deploing and starting on the server. If these tasks are successfully completed, the telegram bot receives a message about the completion of the procedure. 
+
+To use this feature you need to fill secrets section in GitHub actions: DB_ENGINE, DB_NAME, POSTGRES_USER, POSTGRES_PASSWORD, DB_HOST, DB_PORT, HOST, DOCKER_USERNAME, DOCKER_PASSWORD, USER, SSH_KEY, PASSPHRASE, TELEGRAM_TO, TELEGRAM_TOKEN 
+
 
 ## How to launch a project:
 
 Clone the repository and switch to it on the command line:
 
 ```
-https://github.com/Damarkevich/infra_sp2
+https://github.com/Damarkevich/yamdb_final
 ```
 
 ```
-cd infra_sp2/infra
+cd yamdb_final/infra
 ```
 
 Create and fill .env file according to sample ".env.example":
