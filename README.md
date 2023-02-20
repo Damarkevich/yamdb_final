@@ -1,10 +1,12 @@
 # Team training project: api_yamdb - service that collects user feedback on works of art.
 
+
 ## Working progect can be found here:
 http://84.201.131.211/api/v1/
 
 ## GitHub Action status:
 ![API_YAMDB workflow](https://github.com/damarkevich/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
+
 
 ## Technologies used:
 Python3, Django Framework, Django Rest Framework, MySQL, JWT, docker, docker-compose, GitHub Actions
