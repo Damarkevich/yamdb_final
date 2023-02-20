@@ -1,6 +1,5 @@
 # Team training project: api_yamdb - service that collects user feedback on works of art.
 
-
 ## Working progect can be found here:
 http://84.201.131.211/api/v1/
 
